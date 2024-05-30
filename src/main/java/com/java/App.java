@@ -1,7 +1,8 @@
 package com.java;
 
 /**
- * Hello world!
+ * @author Prashant Mane
+ * 
  *
  */
 public class App 
