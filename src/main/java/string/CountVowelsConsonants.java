@@ -4,7 +4,6 @@ public class CountVowelsConsonants {
 
 	public static void main(String[] args) {
 		String s = "hello12 java";
-
 		int vowel = 0;
 		int consonants = 0;
 		int digit = 0;
