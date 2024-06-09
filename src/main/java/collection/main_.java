@@ -2,7 +2,7 @@ package collection;
 
 import java.util.ArrayList;
 
-public class main {
+public class main_ {
 
 	public static void main(String[] args) {
 		ArrayList<Student> al = new ArrayList<Student>();
