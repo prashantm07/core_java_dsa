@@ -1,4 +1,4 @@
-package array;
+package arrays;
 
 //selection sorting 
 public class Sorting {

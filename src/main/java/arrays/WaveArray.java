@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class WaveArray {
 
 	public static void main(String[] args) {
-		int a[] = { 2, 4, 7, 8,- 9, 10 };
+		int a[] = { 2, 4, 7, 8, -9, 10 };
 
 		int n = a.length;
 		for (int i = 0; i < a.length; i += 2) {
@@ -14,7 +14,7 @@ public class WaveArray {
 				Swaping(a, i, i - 1);
 
 			}
-			if (i < n-1 && a[i] < a[i + 1]) {
+			if (i < n - 1 && a[i] < a[i + 1]) {
 //			calling swapping 
 				Swaping(a, i, i + 1);
 			}

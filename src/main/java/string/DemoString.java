@@ -8,7 +8,6 @@ public class DemoString {
 		System.out.println(s1 == s3);
 		System.out.println(s1.equals(s3));
 		
-		
 		final int n =10;
 //		n=20;
 		System.out.println(n);
