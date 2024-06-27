@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class _main_ {
 
 	public static void main(String[] args) {
-		ArrayList<Student> al = new ArrayList<Student>();
-		al.add(new Student("prashant",25));
+		ArrayList<Students> al = new ArrayList<Students>();
+		al.add(new Students("prashant",25));
 		
-		for(Student st : al) {
+		for(Students st : al) {
 			System.out.println(st);
 		}
 

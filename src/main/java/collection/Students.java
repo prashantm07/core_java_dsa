@@ -1,15 +1,15 @@
 package collection;
 
-public class Student {
+public class Students {
 	private String name;
 	private Integer age;
 
-	public Student() {
+	public Students() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public Student(String name, Integer age) {
+	public Students(String name, Integer age) {
 		super();
 		this.name = name;
 		this.age = age;
@@ -35,5 +35,4 @@ public class Student {
 	public String toString() {
 		return "Student [name=" + name + ", age=" + age + "]";
 	}
-	
 }
