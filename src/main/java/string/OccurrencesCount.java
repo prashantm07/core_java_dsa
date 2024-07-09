@@ -16,7 +16,6 @@ public class OccurrencesCount {
 			for (char ch : charArray) {
 			if (charCount.containsKey(ch)) {
 				charCount.put(ch, charCount.get(ch) + 1);
-				System.out.println(charCount.get(ch));
 			} else {
 				charCount.put(ch, 1);
 			}

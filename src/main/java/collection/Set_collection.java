@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Set_collection {
 	public static void main(String[] args) {
@@ -24,7 +25,7 @@ public class Set_collection {
 		System.out.println("hash_set: " + hash_set);
 
 		/******************** linked_Hash_set *********************************/
-		
+
 		Set<Integer> linked_Hash_set = new LinkedHashSet<Integer>();
 
 		linked_Hash_set.add(15);
@@ -41,7 +42,7 @@ public class Set_collection {
 		System.out.println("linked_Hash_set : " + linked_Hash_set);
 
 		/******************** tree_set *********************************/
-		Set<Integer> tree_set = new LinkedHashSet<Integer>();
+		Set<Integer> tree_set = new TreeSet<Integer>();
 		tree_set.add(75);
 		tree_set.add(15);
 		tree_set.add(25);
@@ -54,10 +55,11 @@ public class Set_collection {
 		tree_set.add(65);
 
 		Iterator it = tree_set.iterator();
-		
+		System.out.println(tree_set.iterator().next().intValue());
+
 		System.out.println("tree_set : ");
-		while(it.hasNext()) {
-			System.out.print(it.next()+" ");
+		while (it.hasNext()) {
+			System.out.print(it.next() + " ");
 		}
 //		System.out.println("tree_set : " + tree_set);
 	}

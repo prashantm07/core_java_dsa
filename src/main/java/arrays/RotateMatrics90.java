@@ -26,7 +26,7 @@ public class RotateMatrics90 {
 //			}
 //		}
 		for (int i = 0; i < N; i++) {
-			for (int j = 0; j < N / 2; j++) {
+			for (int j = i+1; j < N ; j++) {
 				
 				int temp = a[i][j];
 				a[i][j] = a[i][N - 1 -j];

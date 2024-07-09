@@ -23,7 +23,7 @@ public class List_collection {
 		/************************* Linked_List ********************************/
 		List<Integer> ll = new LinkedList<Integer>();
 		ll.add(25);
-		ll.add(15);
+		ll.add(12);
 		ll.add(35);
 		ll.add(45);
 		ll.add(55);
@@ -31,6 +31,19 @@ public class List_collection {
 		ll.add(75);
 		ll.add(65);
 		ll.add(75);
-		System.out.println("Linked_List : " + ll.get(2));
+		System.out.println("Linked_List : " + ll);
+		
+		List<Integer> sumList = new ArrayList<Integer>();
+		for(int i =0; i < ll.size();i++) {
+			if(ll.get(i) %2 == 0) {
+				sumList.add(ll.get(i));
+			}
+		}
+		System.out.println(sumList + " sumList");
+		
+		List list = new ArrayList();
+		list.add(1);
+		list.add(" prashant");
+		System.out.println(list);
 	}
 }

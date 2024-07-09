@@ -15,11 +15,12 @@ public class duplicate_element {
 			for (int j = 0; j < ch.length; j++) {
 				if(ch[i] == ch[j]) {
 					count++;
+					set.add(ch[j]);
 				}
 			}
-			if(count == 2) {
-			set.add(ch[i]);
-			}
+//			if(count == 1) {
+//			set.add(ch[i]);
+//			}
 		}
 		System.out.println(set);
 	}

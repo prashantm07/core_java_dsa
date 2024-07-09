@@ -9,11 +9,12 @@ public class asd {
 				int sum =0;
 				sum +=a[j];
 				if(sum==0) {
-					System.out.println(true);
+//					System.out.println(true);
 				}
-				else System.out.println(false);
+//				else System.out.println(false);
 				
 			}
 		}
+		System.out.printf("hello world");
 	}
 }
