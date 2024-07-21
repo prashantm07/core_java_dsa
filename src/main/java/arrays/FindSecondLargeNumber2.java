@@ -11,8 +11,8 @@ public class FindSecondLargeNumber2 {
 			fLarge = arr[0];
 			sLarge = arr[1];
 		} else {
-			sLarge = arr[0];
 			fLarge = arr[1];
+			sLarge = arr[0];
 		}
 
 		for (int i = 2; i < arr.length; i++) {
@@ -25,7 +25,7 @@ public class FindSecondLargeNumber2 {
 			}
 
 		}
-		System.out.println("Second Large numkber in the array : "+sLarge);
+		System.out.println("Second Large numkber in the array : " + sLarge);
 
 	}
 
