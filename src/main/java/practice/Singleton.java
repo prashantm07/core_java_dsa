@@ -5,7 +5,7 @@ public class Singleton {
 	private static final Singleton instance = new Singleton();
 
 //	private constructor to prevent instantiation 
-	public Singleton() {
+	private Singleton() {
 	}
 
 //	access the instance
