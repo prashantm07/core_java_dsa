@@ -1,15 +1,19 @@
 package practice;
 
 public class Singleton {
-//	creating new instance at time of class loading 
-	private static final Singleton instance = new Singleton();
+	
+//	1. creating new instance at time of class loading 
+	private static Singleton instance ;
 
-//	private constructor to prevent instantiation 
+//	 2. private constructor to prevent instantiation 
 	private Singleton() {
 	}
 
-//	access the instance
+//	3.  Provide a public static method to return the instance of the class.
 	public static Singleton getInstance() {
+		if(instance == null) {
+			instance = new Singleton();
+		}
 		return instance;
 	}
 
