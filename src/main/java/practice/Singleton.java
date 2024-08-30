@@ -11,9 +11,9 @@ public class Singleton {
 
 //	3.  Provide a public static method to return the instance of the class.
 	public static Singleton getInstance() {
-		if(instance == null) {
-			instance = new Singleton();
-		}
+//		if(instance == null) {
+//			instance = new Singleton();
+//		}
 		return instance;
 	}
 
